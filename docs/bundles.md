@@ -4,6 +4,11 @@ title: Redux Bundles
 sidebar_label: Bundles
 ---
 
+Redux Bundler is a new module that gives you the ability to bundle all of your
+redux concepts into one object and then re-use the bundles in multiple projects.
+
+> Note there are other ways to organize your redux concepts, like redux-loop and redux-saga. These tend to add a lot more complexity.
+
 Ok, so there are a lot of moving parts in redux and each piece is pure, predictable and testable which provides simplicity. But it can be extremely painful to manage all of these moving parts over medium to large applications with different domain models. Also there are several things that can be abstracted to leverage common patterns, like routing, cacheing, async api's, and more. In other words there is a lot of potential for reusability of application logic.
 
 One of the challenge is to not introduce too much complexity to get the benefit of reusability. This is where Redux-Bundler really shines.
@@ -12,6 +17,7 @@ Redux-Bundler is a tool that wraps around redux and provides all of the redux pi
 
 Lets explore:
 
+* Install
 * Bundle Specification
 * Use Cases
 * AppTime Bundle
