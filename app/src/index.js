@@ -1,15 +1,10 @@
 import React from 'react'
 import { render } from 'react-native'
-import { Container, Content, Text } from 'native-base'
-//import 'typeface-roboto'
+import 'typeface-roboto'
+import './font.css'
 
-//import Root from './components/root'
-const App = () => (
-  <Container>
-    <Content>
-      <Text>Welcome To Native Base</Text>
-    </Content>
-  </Container>
-)
+import getStore from './bundles'
 
-render(<App />, document.getElementById('root'))
+import Root from './components/root'
+
+render(<Root store={getStore()} />, document.getElementById('root'))

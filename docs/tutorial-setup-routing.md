@@ -16,10 +16,10 @@ touch routes.js
 Using our favorite editor lets add the following code to the routes file.
 
 ```js
-import { createRouterBundle } from 'redux-bundler'
+import { createRouteBundle } from 'redux-bundler'
 import Home from '../components/pages/home'
 
-export default createRouterBundle({
+export default createRouteBundle({
   '/': Home
 })
 ```

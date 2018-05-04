@@ -1,6 +1,5 @@
 import React from 'react'
 import { connect } from 'redux-bundler-react'
-
 import { StyleSheet, View } from 'react-native'
 import {
   Container,
@@ -11,25 +10,32 @@ import {
   Title,
   Left,
   Button,
-  Icon
+  Icon,
+  List,
+  ListItem
 } from 'native-base'
 
-const Home = ({ doUpdateUrl }) => (
+const Menu = ({ doUpdateUrl }) => (
   <Container style={styles.container}>
     <Header>
       <Left>
-        <Button transparent onPress={() => doUpdateUrl('/menu')}>
-          <Icon name="menu" />
+        <Button transparent onPress={() => doUpdateUrl('/')}>
+          <Icon name="arrow-back" />
         </Button>
       </Left>
       <Body>
-        <Title style={styles.roboto}>VETERAN SUPPORT</Title>
+        <Title style={styles.roboto}>MENU</Title>
       </Body>
     </Header>
     <Content>
-      <View style={styles.center}>
-        <Text>I am a home page</Text>
-      </View>
+      <List>
+        <ListItem onPress={() => doUpdateUrl('/categories')}>
+          <Text>Categories</Text>
+        </ListItem>
+        <ListItem onPress={() => doUpdateUrl('/resources')}>
+          <Text>Resources</Text>
+        </ListItem>
+      </List>
     </Content>
   </Container>
 )
@@ -52,4 +58,4 @@ const styles = StyleSheet.create({
   }
 })
 
-export default connect('doUpdateUrl', Home)
+export default connect('doUpdateUrl', Menu)
