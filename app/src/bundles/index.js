@@ -1,4 +1,15 @@
-import { composeBundles } from 'redux-bundler'
+import { composeBundles, createCacheBundle } from 'redux-bundler'
+import cache from '../utils/cache'
 import routes from './routes'
+import apiFetch from './api-fetch'
 
-export default composeBundles(routes)
+import categories from './categories'
+import resources from './resources'
+
+export default composeBundles(
+  routes,
+  createCacheBundle(cache.set),
+  apiFetch,
+  categories,
+  resources
+)
