@@ -1,6 +1,5 @@
 ---
-
-id: bundle-use-cases
+id: bundles-use-cases
 title: Use Cases
 sidebar_label: Use Cases
 ---

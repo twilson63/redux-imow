@@ -19,7 +19,7 @@ const users = [
 ]
 
 const siteConfig = {
-  title: 'Redux' /* title for your website */,
+  title: 'Redux Bundler' /* title for your website */,
   tagline: 'A developers perspective',
   url: 'https://redux.how2js.com' /* your website url */,
   baseUrl: '/' /* base url for your project */,
@@ -28,7 +28,7 @@ const siteConfig = {
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'redux-docs',
+  projectName: 'redux-imow',
   organizationName: 'jrscode',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
@@ -39,6 +39,8 @@ const siteConfig = {
     { doc: 'getting-started', label: 'Getting Started' },
     { doc: 'concepts', label: 'Concepts' },
     { doc: 'bundles', label: 'Bundles' },
+    { doc: 'tutorial', label: 'Tutorial' },
+    { doc: 'resources', label: 'Resources' },
     { page: 'help', label: 'Help' }
   ],
 
@@ -46,13 +48,13 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/docusaurus.svg',
-  footerIcon: 'img/docusaurus.svg',
+  headerIcon: 'img/redux.svg',
+  footerIcon: 'img/redux.svg',
   favicon: 'img/favicon.png',
 
   /* colors for website */
   colors: {
-    primaryColor: '#2E8555',
+    primaryColor: '#764ABC',
     secondaryColor: '#205C3B'
   },
 
@@ -83,8 +85,8 @@ const siteConfig = {
   onPageNav: 'separate',
 
   /* Open Graph and Twitter card images */
-  ogImage: 'img/docusaurus.png',
-  twitterImage: 'img/docusaurus.png'
+  ogImage: 'img/redux.png',
+  twitterImage: 'img/redux.png'
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...

@@ -1,5 +1,5 @@
 ---
-id: bundle-specs
+id: bundles-specs
 title: Bundle Specifications
 sidebar_label: Specifications
 ---

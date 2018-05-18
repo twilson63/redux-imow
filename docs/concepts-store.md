@@ -1,6 +1,6 @@
 ---
-id: concepts-store 
-title: Redux Store 
+id: store 
+title: Redux Store
 sidebar_label: Store
 ---
 

@@ -1,10 +1,43 @@
 {
   "docs": {
-    "Docusaurus": ["doc1"],
-    "First Category": ["doc2"],
-    "Second Category": ["doc3"]
+    "Concepts": [
+      "concepts",
+      "store",
+      "actions",
+      "action-creators",
+      "dispatching",
+      "reducers",
+      "selectors",
+      "reactors",
+      "middleware"
+    ]
   },
-  "docs-other": {
-    "First Category": ["doc4", "doc5"]
+  "bundles": {
+    "Bundles": [
+      "bundles",
+      "bundles-install",
+      "bundles-specs",
+      "bundles-use-cases",
+      "bundles-app-time",
+      "bundles-cache",
+      "bundles-routing",
+      "bundles-debugging",
+      "bundles-testing"
+    ]
+  },
+  "resources": {
+    "Resources": ["resources"]
+  },
+  "tutorial": {
+    "Tutorial": [
+      "tutorial",
+      "tutorial-setup",
+      "tutorial-setup-routing",
+      "tutorial-store",
+      "tutorial-fetch",
+      "tutorial-caching",
+      "tutorial-categories-bundle",
+      "tutorial-resources-bundle"
+    ]
   }
 }

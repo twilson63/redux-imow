@@ -1,0 +1,7 @@
+{
+  "name":"redux-imow",
+  "version": "1.0.0",
+  "scripts": {
+    "docs": "cd website && yarn start"
+  }
+}

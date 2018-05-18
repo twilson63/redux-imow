@@ -1,5 +1,5 @@
 ---
-id: tutorial-resource-bundle
+id: tutorial-resources-bundle
 title: Resource Bundle
 sidebar_label: Resources
 ---
